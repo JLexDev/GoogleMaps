@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jlexdev.com.googlemapshp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Maps -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBJozQbT_Gtwid1FCDCUcgXRRImukYAn_0" />
+
+        <!-- MainActivity -->
+        <activity android:name=".MainActivity">
+        </activity>
+
+        <activity android:name=".FirstMapActivity">
+
+        </activity>
+    </application>
+
+</manifest>
